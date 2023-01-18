@@ -64,7 +64,7 @@ public class CarsController : ControllerBase
     catch (Exception e)
     {
       return BadRequest(e.Message);
-      throw;
+     
     }
   }
 
